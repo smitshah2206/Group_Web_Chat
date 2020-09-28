@@ -1,0 +1,434 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+body
+{
+	background-color: #ffffff;
+}
+#outer
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#header
+{
+	width: 100%;
+	height: 20%;
+	position: absolute;
+	top: 0;
+	left: 0;	
+}
+#header > #headerfirst
+{
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	border-bottom:1px solid #d0d0d0;
+	border-radius:0 3px 3px 0;
+	color:#444;
+	font-weight:bold;
+	text-shadow:0 1px 0 #fff;
+}
+#header > #headerfirst > #logo
+{
+	width: 20%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#header > #headerfirst > #logo > h2
+{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+@media (max-width:400px)
+{
+	#header > #headerfirst > #logo
+	{
+		width: 38%;
+	}
+	#header > #headerfirst > #logo > h2
+	{
+		font-size: 20px;
+	}
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+#outerbox
+{
+	width: 30%;
+	height: 70%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 25px 25px 25px 25px;
+	border: 1px solid #d0d0d0;
+}
+#outerbox > #inner1
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	border-radius: 25px 25px 0px 0px;
+	background-color: #2f3542;
+	border-bottom: 1px solid #e4e4e4;
+	color: #f5f6fa;
+}
+#outerbox > #inner1 > h2
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#outerbox > #inner2
+{
+	position: absolute;
+	top: 10%;
+	left: 0;
+	width: 100%;
+	height: 89%;
+	border-radius: 0px 0px 25px 25px;
+}
+#outerbox > #inner2 > form
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #747d8c;
+}
+#outerbox > #inner2 > form > #profilesection
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 43%;
+	border-bottom: 1px solid #e4e4e4;
+}
+#outerbox > #inner2 > form > #profilesection > table
+{
+	position: absolute;
+	width: 88%;
+	top: 0%;
+	left: 10%;
+	font-size: 14px;
+}
+#outerbox > #inner2 > form > #profilesection > table > tbody > tr
+{
+	height: 70px;
+	letter-spacing: 1px;
+}
+#outerbox > #inner2 > form > #profilesection > table > tbody > tr > td > input
+{
+	border:none;
+	border-bottom: 1px solid #e4e4e4;
+	outline: none;
+	margin-bottom: 6px;
+	width: 135px;
+	font-weight: bold;
+	background-color: transparent;
+}
+#outerbox > #inner2 > form > #profilesection > table > tbody > tr > td > #first_name_error
+{
+	color: red;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: bold;
+	position: absolute;
+    max-width: 41%;
+}
+#outerbox > #inner2 > form > #profilesection > table > tbody > tr > td > #last_name_error
+{
+	color: red;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: bold;
+	position: absolute;
+    max-width: 41%;
+}
+#outerbox > #inner2 > form > #profilesection > table > tbody > tr > td > #user_name_error
+{
+	color: red;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: bold;
+	position: absolute;
+    max-width: 41%;
+}
+#outerbox > #inner2 > form > #profilesection > table > tbody > tr > td > #password_error
+{
+	color: red;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: bold;
+	position: absolute;
+    max-width: 41%;
+}
+#outerbox > #inner2 > form > #contactsection
+{
+	position: absolute;
+	top: 35%;
+	left: 0;
+	width: 100%;
+	height: 34%;
+	border-bottom: 1px solid #e4e4e4;
+}
+#outerbox > #inner2 > form > #contactsection > table
+{
+	position: absolute;
+	width: 88%;
+	top: 20%;
+	left: 10%;
+	font-size: 14px;
+}
+#outerbox > #inner2 > form > #contactsection > table > tbody > tr
+{
+	height: 70px;
+	letter-spacing: 1px;
+}
+#outerbox > #inner2 > form > #contactsection > table > tbody > tr > td > input
+{
+	border:none;
+	background-color: transparent;
+	border-bottom: 1px solid #e4e4e4;
+	outline: none;
+	margin-bottom: 6px;
+	width: 135px;
+	font-weight: bold;
+}
+#outerbox > #inner2 > form > #contactsection > table > tbody > tr > td > #contact_number_error
+{
+	color: red;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: bold;
+	position: absolute;
+    max-width: 41%;
+}
+#outerbox > #inner2 > form > #contactsection > table > tbody > tr > td > #contact_email_error
+{
+	color: red;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: bold;
+	position: absolute;
+    max-width: 41%;
+}
+#outerbox > #inner2 > form > #descriptionsection
+{
+	position: absolute;
+	top: 63%;
+	left: 0;
+	width: 100%;
+	height: 35%;
+}
+#outerbox > #inner2 > form > #descriptionsection > table
+{
+	position: absolute;
+	width: 88%;
+	top: 15%;
+	left: 10%;
+	font-size: 14px;
+}
+#outerbox > #inner2 > form > #descriptionsection > table > tbody > tr
+{
+	height: 70px;
+	letter-spacing: 1px;
+}
+#outerbox > #inner2 > form > #descriptionsection > table > tbody > tr > td > input
+{
+	border:none;
+	background-color: transparent;
+	border-bottom: 1px solid #e4e4e4;
+	outline: none;
+	margin-bottom: 6px;
+	width: 135px;
+	font-weight: bold;
+}
+#outerbox > #inner2 > form > #descriptionsection > table > tbody > tr > td > #date_of_birth_error
+{
+	color: red;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: bold;
+	position: absolute;
+    max-width: 41%;
+}
+#outerbox > #inner2 > form > #descriptionsection > table > tbody > tr > td > #location_error
+{
+	color: red;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: bold;
+	position: absolute;
+    max-width: 41%;
+}
+#outerbox > #inner2 > form > #descriptionsection > #submitbutton
+{
+	width: 82%;
+	height: 20%;
+	position: absolute;
+	top: 80%;
+	left: 12%;
+	display: inline;
+}
+#outerbox > #inner2 > form > #descriptionsection > #submitbutton > input
+{
+	width: 42%;
+	margin-right: 20px;
+	display: inline;
+	height: 100%;
+	border: 1px solid #e4e4e4;
+	border-radius: 20px 20px 20px 20px;
+	outline: none;
+	cursor: pointer;
+	border: 1.5px solid #2f3542;
+	background-color: #fff;
+	color: #2f3542;
+	font-weight: bolder;
+}
+#outerbox > #inner2 > form > #descriptionsection > #submitbutton > input:hover
+{
+	background-color: #2f3542;
+	color: #f5f6fa;
+	transition: .3s;
+}
+@media (max-width:400px)
+{
+	#outerbox
+	{
+		width: 96%;
+		height: 80%;
+		top: 55%;
+	}
+	#outerbox > #inner2 > form > #profilesection > table > tbody > tr > td > #error,#outerbox > #inner2 > form > #contactsection > table > tbody > tr > td > #error,#outerbox > #inner2 > form > #descriptionsection > table > tbody > tr > td > #error
+	{
+		font-size: 10px;
+	}
+	#footer
+	{
+		top: 100%;
+	}
+}
+
+
+
+#footer
+{
+	width: 100%;
+	height: 10%;
+	position: absolute;
+	bottom: 0;
+	left: 0;	
+}
+#footer > #devlopername
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	border-top:1px solid #d0d0d0;
+	border-radius:0 3px 3px 0;
+	color:#444;
+	font-weight:bold;
+	text-shadow:0 1px 0 #fff;
+}
+#footer > #devlopername > h2,#footer > #devlopername > h3
+{
+	position: relative;
+	width: auto;
+	text-align: center;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	letter-spacing: 1px;
+}
+#footer > #devlopername > h3 > a
+{
+	text-decoration: none;
+	color: unset;
+}
+#footer > #devlopername > h3 > a:hover
+{
+	color: #0097e6;
+}
+#footer > #devlopername > ul
+{
+	position: absolute;
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	top: 50%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+	letter-spacing: 1px;
+}
+#footer > #devlopername > ul > li
+{
+	display: inline-block;
+	width: auto;
+	margin: 5%;
+}
+#footer > #devlopername > ul > li > a
+{
+	text-decoration: none;
+	color: unset;
+}
+#footer > #devlopername > ul > li > a > i:hover
+{
+	color: #0097e6;
+}
+@media (max-width:400px)
+{
+	#footer > #devlopername > h2
+	{
+		font-size: 18px;
+	}
+	#footer > #devlopername > h3
+	{
+		font-size: 16px;
+	}
+	#footer > #devlopername > ul
+	{
+		width: 30%;
+		left: 85%;
+	}
+}

@@ -1,0 +1,859 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+a
+{
+	text-decoration: none;
+	color: unset;
+}
+body
+{
+	background-color: #ffffff;
+	color: #f1f2f6;
+}
+#outerbox
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+#inner1
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 5%;
+	height: 100%;
+	background-color: #2f3542;
+}
+#inner1 > #sidebar1
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 20%;
+}
+#inner1 > #sidebar1 > #sideimagelogobox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 80%;
+	height: 40%;
+	border-radius: 50%;
+	overflow: hidden;
+}
+#inner1 > #sidebar1 > #sideimagelogobox > img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+#inner1 > #sidebar2
+{
+	position: absolute;
+	top: 20%;
+	left: 0%;
+	width: 100%;
+	height: 60%;	
+}
+#inner1 > #sidebar2 > #sideulbox
+{
+	position: absolute;
+	top: 5%;
+	left: 0%;
+	width: 100%;
+	height: 90%;
+	overflow: hidden;
+}
+#inner1 > #sidebar2 > #sideulbox > ul
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+#inner1 > #sidebar2 > #sideulbox > ul > li
+{
+	position: relative;
+	display: block;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 18%;
+	text-align: center;
+	box-shadow: .5px .1px .1px  #57606f;
+}
+#inner1 > #sidebar2 > #sideulbox > ul > #active
+{
+	border-left: 3px solid #2ed573;
+}
+#inner1 > #sidebar2 > #sideulbox > ul > #active > a > i
+{
+	color: #ffffff;
+}
+#inner1 > #sidebar2 > #sideulbox > ul > li:hover
+{
+	background-color:#57606f; 
+	border-left: 3px solid #FC427B;
+}
+#inner1 > #sidebar2 > #sideulbox > ul > li > a > i
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 40px;
+	transform: translate(-50%,-50%);
+	color: #747d8c;
+}
+#inner1 > #sidebar2 > #sideulbox > ul > li:hover > a > i
+{
+	color: #ffffff; 
+}
+#inner1 > #sidebar3
+{
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	width: 100%;
+	height: 20%;	
+}
+#inner1 > #sidebar3 > a > i
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 30px;
+	transform: translate(-50%,-50%);
+}
+#inner2
+{
+	position: absolute;
+	top: 0%;
+	left: 5%;
+	width: 25%;
+	height: 100%;
+	background-color: #57606f;
+}
+#inner2 > #inner2searchbox
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 10%;	
+	border-bottom:1px solid #e4e4e4; 
+}
+#inner2 > #inner2searchbox > h2
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	text-align: center;
+	height: 45%;
+	border-radius: 25px 25px 25px 25px;
+	outline: none;
+	color: white;
+	font-size: 20px;
+}
+#inner2 > #inner2containerbox
+{
+	position: absolute;
+	top: 12%;
+	left: 0%;
+	width: 100%;
+	height: 38%;	
+	overflow: hidden;
+	overflow-y: scroll;
+}
+#inner2 > #inner2containerbox::-webkit-scrollbar
+{
+	width: 10px;
+}
+#inner2 > #inner2containerbox::-webkit-scrollbar-thumb
+{
+	border-radius: 5px;
+	background: rgba(0,0,0,.1);
+}
+#inner2 > #inner2containerbox > ul
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	list-style: none;
+}
+#inner2 > #inner2containerbox > ul > li
+{
+	position: relative;
+	display: block;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	cursor: pointer;
+	color: #f1f2f6;
+}
+#inner2 > #inner2containerbox > ul > li:hover
+{
+	background-color: #2f3542;
+	color: #ffffff;
+}
+#inner2 > #inner2containerbox > ul > li > #inner2containerboximageouterbox
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 30%;
+	height: 100%;
+}
+#inner2 > #inner2containerbox > ul > li > #inner2containerboximageouterbox > #inner2containerboximagebox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 60%;
+	height: 80%;
+	border-radius: 50%;
+	overflow: hidden;
+}
+#inner2 > #inner2containerbox > ul > li > #inner2containerboximageouterbox > #inner2containerboximagebox > img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+#inner2 > #inner2containerbox > ul > li > ul
+{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	width: 70%;
+	height: 100%;
+}
+#inner2 > #inner2containerbox > ul > li > ul > li
+{
+	position: relative;
+	display: block;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+}
+#inner2 > #inner2containerbox > ul > li > ul > li > label
+{
+	width: auto;
+	position: absolute;
+	top: 22%;
+	left: 0%;
+	font-size: 13px;
+	word-break: break-all;
+}
+#inner2 > #inner2containerbox > ul > li > ul > li:nth-child(1) > label
+{
+	font-size: 20px;
+}
+#inner2 > #inner2containerbox > ul > li > ul > #iconside
+{
+	position: absolute;
+	width: 25%;
+	height: 50%;
+	top: 25%;
+	right: 5%;
+}
+#inner2 > #inner2containerbox > ul > li > ul > #iconside > i
+{
+	display: inline-block;
+	position: relative;
+    top: 7%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+#inner2 > #inner2searchbox2
+{
+	position: absolute;
+	top: 52%;
+	left: 0%;
+	width: 100%;
+	height: 10%;	
+	border-top:1px solid #e4e4e4; 
+	border-bottom:1px solid #e4e4e4; 
+}
+#inner2 > #inner2searchbox2 > h2
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	text-align: center;
+	height: 45%;
+	border-radius: 25px 25px 25px 25px;
+	outline: none;
+	color: white;
+	font-size: 20px;
+}
+#inner2 > #inner2containerbox2
+{
+	position: absolute;
+	top: 64%;
+	left: 0%;
+	width: 100%;
+	height: 36%;
+	overflow: hidden;
+	overflow-y: scroll;	
+}
+#inner2 > #inner2containerbox2::-webkit-scrollbar
+{
+	width: 10px;
+}
+#inner2 > #inner2containerbox2::-webkit-scrollbar-thumb
+{
+	border-radius: 5px;
+	background: rgba(0,0,0,.1);
+}
+#inner2 > #inner2containerbox2 > ul
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	list-style: none;
+}
+#inner2 > #inner2containerbox2 > ul > li
+{
+	position: relative;
+	display: block;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	cursor: pointer;
+	color: #f1f2f6;
+}
+#inner2 > #inner2containerbox2 > ul > li:hover
+{
+	background-color: #2f3542;
+	color: #ffffff;
+}
+#inner2 > #inner2containerbox2 > ul > li > #inner2containerboximageouterbox2
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 30%;
+	height: 100%;
+}
+#inner2 > #inner2containerbox2 > ul > li > #inner2containerboximageouterbox2 > #inner2containerboximagebox2
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 60%;
+	height: 80%;
+	border-radius: 50%;
+	overflow: hidden;
+}
+#inner2 > #inner2containerbox2 > ul > li > #inner2containerboximageouterbox2 > #inner2containerboximagebox2 > img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+#inner2 > #inner2containerbox2 > ul > li > ul
+{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	width: 70%;
+	height: 100%;
+}
+#inner2 > #inner2containerbox2 > ul > li > ul > li
+{
+	position: relative;
+	display: block;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+}
+#inner2 > #inner2containerbox2 > ul > li > ul > li > label
+{
+	width: auto;
+	position: absolute;
+	top: 22%;
+	left: 0%;
+	font-size: 13px;
+}
+#inner2 > #inner2containerbox2 > ul > li > ul > li:nth-child(1) > label
+{
+	font-size: 20px;
+}
+#inner2 > #inner2containerbox2 > ul > li > ul > #iconside2
+{
+	position: absolute;
+	width: 25%;
+	height: 50%;
+	top: 25%;
+	right: 5%;
+}
+#inner2 > #inner2containerbox2 > ul > li > ul > #iconside2 > i
+{
+	display: inline-block;
+	position: relative;
+    top: 7%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+#inner3
+{
+	position: absolute;
+	top: 0%;
+	right: 25%;
+	background-color: green;
+	width: 45%;
+	height: 100%;
+}
+#inner3 > #inner3container
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	background-color: #f1f2f6;
+	color: black;
+	width: 100%;
+	height: 90%;
+	padding: 10px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.chatlogs::-webkit-scrollbar
+{
+	width: 10px;
+}
+.chatlogs::-webkit-scrollbar-thumb
+{
+	border-radius: 5px;
+	background: rgba(0,0,0,.1);
+}
+.chat
+{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	margin-bottom: 10px;
+}
+.chat .user-photo
+{
+	width: 60px;
+	height: 60px;
+	background-color: #ccc;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.chat .user-photo img
+{
+	width: 100%;
+}
+.chat .chat-message
+{
+	width: 80%;
+	padding: 15px;
+	margin: 22px 10px 0;
+	background-color: #1ddced;
+	border-radius: 10px;
+	font-size: 20px;
+}
+.friend > span
+{
+	position: absolute;
+	left: 14%;
+}
+.friend .chat-message
+{
+	background-color: #1adda4;
+}
+.user > span
+{
+	position: absolute;
+	right: 17%;
+}
+.user .chat-message
+{
+	background-color: #1ddced;
+	order: -1;
+	text-align: end;
+}
+#inner3 > #inner3footer
+{
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	width: 100%;
+	height: 10%;
+	background-color: #ffffff;
+}
+#inner3 > #inner3footer
+{
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	width: 100%;
+	height: 10%;
+	background-color: #ffffff;
+}
+#inner3 > #inner3footer > #inner3searchbox
+{
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	width: 90%;
+	height: 70%;	
+}
+#inner3 > #inner3footer > #inner3searchbox > input
+{
+	position: absolute;
+	top: 10%;
+	left: 0%;
+	width: 85%;
+	height: 80%;
+	border-radius: 25px 25px 25px 25px;
+	outline: none;
+	background-color: transparent;
+	border: 1px solid #ced6e0;
+	color: #2f3542;
+	padding-left: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+#inner3 > #inner3footer > #inner3searchbox > i
+{
+	position: absolute;
+	top: 10%;
+	right: 0%;
+	width: 10%;
+	height: 80%;
+	font-size:30px;
+	color: #2ed573;
+}
+#inner4
+{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	width: 25%;
+	height: 100%;
+	background-color: #2f3542;
+}
+#inner4 > #inner4section1
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 40%;
+}
+#inner4 > #inner4section1 > #inner4imageprofilebox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 50%;
+	height: 65%;
+	border-radius: 50%;
+	overflow: hidden;
+}
+#inner4 > #inner4section1 > #inner4imageprofilebox > img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+#inner4 > #inner4section2
+{
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	width: 100%;
+	height: 60%;
+	text-align: center;
+}
+#inner4 > #inner4section2 > #inner4section2section1
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+}
+#inner4 > #inner4section2 > #inner4section2section1 > ul
+{
+	position: absolute;
+	top: 0%;
+	left: 0;
+	width: 100%;
+	height: 70%;
+	text-decoration: none;
+	list-style: none;
+}
+#inner4 > #inner4section2 > #inner4section2section1 > ul > li
+{
+	position: relative;
+	display: block;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 50%;
+	text-align: center;
+}
+#inner4 > #inner4section2 > #inner4section2section1 > ul > li > h4
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#inner4 > #inner4section2 > #inner4section2section2
+{
+	position: absolute;
+	top: 20%;
+	left: 0%;
+	width: 100%;
+	height: 50%;
+	text-align: center;
+}
+#inner4 > #inner4section2 > #inner4section2section2 > ul
+{
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	width: 70%;
+	height: 100%;
+	text-decoration: none;
+	list-style: none;
+}
+#inner4 > #inner4section2 > #inner4section2section2 > ul > li
+{
+	position: relative;
+	display: block;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 20%;
+	text-align: left;
+}
+#inner4 > #inner4section2 > #inner4section2section2 > ul > li > span
+{
+	font-size: 22px;
+	margin-right: 10px;
+	width: 10%;
+	height: 10%;
+	position: absolute;
+	align-content: center;
+}
+#inner4 > #inner4section2 > #inner4section2section2 > ul > li > span > i
+{
+	position: absolute;
+}
+#inner4 > #inner4section2 > #inner4section2section2 > ul > li > h4
+{
+	position: absolute;
+	display: inline;
+	left: 14%;
+}
+@media (max-width:400px)
+{
+	#inner1
+	{
+		width: 100%;
+		height: 15%;
+	}
+	#inner1 > #sidebar1
+	{
+		width: 33%;
+		height: 100%;
+	}
+	#inner1 > #sidebar1 > #sideimagelogobox
+	{
+		height: 75%;
+    	width: 43%;
+	}
+	#inner1 > #sidebar2
+	{
+		top: 0%;
+		left: 33%;
+    	width: 40%;
+    	height: 100%;
+	}
+	#inner1 > #sidebar2 > #sideulbox > ul > li
+	{
+		display: inline-block;
+		width: 47%;
+		height: 100%;
+	}	
+	#inner1 > #sidebar2 > #sideulbox > ul > #active
+	{
+		border-left:unset;
+		border-top: 3px solid #2ed573;
+	}
+	#inner1 > #sidebar2 > #sideulbox > ul > li:hover
+	{
+		border-left: unset;
+		border-top: 3px solid #FC427B;
+	}
+	#inner1 > #sidebar2 > #sideulbox > ul > li > a > i
+	{
+		font-size: 31px;
+	}
+
+	#inner1 > #sidebar3
+	{
+		left: unset;
+		right: 0%;
+		width: 16%;
+		height: 100%;
+	}
+	#inner2
+	{
+		top: 15%;
+		left: 0;
+		width: 40%;
+		height: 85%;
+	}
+	#inner2 > #inner2searchbox > h2
+	{
+		font-size: 14px;
+	}
+	#inner2 > #inner2containerbox > ul > li > #inner2containerboximageouterbox
+	{
+		display: none;
+	}
+	#inner2 > #inner2containerbox > ul > li > ul
+	{
+		left: 5%;
+		right: unset;
+		width: 95%;
+	}
+	#inner2 > #inner2containerbox > ul > li > ul > li:nth-child(1) > label
+	{
+		font-size: 16px;
+	}
+	#inner2 > #inner2containerbox > ul > li > ul > #iconside
+	{
+		width: auto;
+		height: auto;
+	}
+	#inner2 > #inner2containerbox > ul > li > ul > #iconside > i
+	{
+		font-size: 16px;
+		margin-left: 27%;
+		display: inline;
+	}
+	#inner2 > #inner2containerbox > ul > li > ul > #iconside > i:nth-child(1)
+	{
+		margin-left: unset;
+	}
+	#inner2 > #inner2searchbox2 > h2
+	{
+		font-size: 14px;
+	}
+	#inner2 > #inner2containerbox2 > ul > li > #inner2containerboximageouterbox2
+	{
+		display: none;
+	}
+	#inner2 > #inner2containerbox2 > ul > li > ul
+	{
+		left: 5%;
+		right: unset;
+		width: 95%;
+	}
+	#inner2 > #inner2containerbox2 > ul > li > ul > li:nth-child(1) > label
+	{
+		font-size: 16px;
+	}
+	#inner2 > #inner2containerbox2 > ul > li > ul > #iconside2
+	{
+		width: auto;
+		height: auto;
+	}
+	#inner2 > #inner2containerbox2 > ul > li > ul > #iconside2 > i
+	{
+		font-size: 16px;
+	}
+	#inner3
+	{
+		top: 15%;
+	    right: 0%;
+	    width: 60%;
+	    height: 85%;
+	}
+	#inner3 > #inner3container
+	{
+		width: 92%;
+	}
+	.chat .user-photo
+	{
+		width: 40px;
+		height: 40px;
+	}
+	.friend > span
+	{
+		left: 24%;
+	}
+	.chat .chat-message
+	{
+		width: 59%;
+	}
+	.user > span
+	{
+		right: 32%;
+	}
+	#inner3 > #inner3footer > #inner3searchbox > input
+	{
+		font-size: 14px;
+		width: 78%;
+	}
+	#inner3 > #inner3footer > #inner3searchbox > i
+	{
+		top: 15%;
+		font-size: 20px;
+	}
+	#inner4
+	{
+		display: none;
+	}
+}
